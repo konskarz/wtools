@@ -13,7 +13,7 @@ graph LR
     subgraph docs[Replicable Data]
       subgraph env[Environment Management]
         wtools[App Management]
-        winre[OS Management]
+        wpt[OS Management]
       end
       subgraph prv[Private Data]
         bak[Service Backups]
@@ -32,7 +32,7 @@ graph LR
   cloud -.->|download| bak & lib
   env & wf & share <-.->|sync| cloud
   wtools --> apps
-  winre --> sys & os
+  wpt --> sys & os
 
   classDef finalized fill:#c7f7d9,stroke:#8fd8a4;
   classDef current fill:#c7e0fa,stroke:#89b4e9;
@@ -42,14 +42,14 @@ graph LR
   classDef device fill:#ead1dc,stroke:#d5a6bd
 
   class pub finalized
-  class wtools,winre,wf current
+  class wtools,wpt,wf current
   class bak,share private
   class lib external
   class cloud appsrv
   class removable device
 
   click wtools "https://github.com/konskarz/wtools"
-  click winre "https://github.com/konskarz/winre"
+  click wpt "https://github.com/konskarz/wpt"
 ```
 
 - **Removable Media**: External storage (e.g., SD-card, phone storage) for local replication to ensure availability offline across devices

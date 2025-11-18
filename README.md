@@ -1,6 +1,6 @@
 # wTools
 
-2015. wTools is an INI-driven Windows application manager, written in NSIS 2, designed for automating system provisioning, tool deployment, and building reproducible development environments. For preparing Windows see [WinRE](https://github.com/konskarz/winre).
+2015. wTools is an INI-driven Windows application manager, written in NSIS 2, designed for automating system provisioning, tool deployment, and building reproducible development environments. For preparing Windows see [Windows Provisioning Toolkit](https://github.com/konskarz/wpt).
 
 ## Getting Started
 
