@@ -1,6 +1,6 @@
 !define INSTNAME "sai"			; used in Name, OutFile, VIAddVersionKey
 !define INSTDESC "System Applications Installer"	; used in Caption, VIAddVersionKey
-!define INSTVERS "2.0.0.0"		; used VIProductVersion, VIAddVersionKey, First two digits are version numbers, last digit is packet revision
+!define INSTVERS "2.0.1.0"		; used VIProductVersion, VIAddVersionKey, First two digits are version numbers, last digit is packet revision
 !define DINIPATH "resources"			; default ini path
 OutFile "dist\${INSTNAME}.exe"
 Caption "${INSTDESC}"			; default "Name Setup", where Name is specified with the Name instruction
