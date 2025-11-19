@@ -1,11 +1,11 @@
 # wTools
 
-2015. wTools is an INI-driven Windows application manager, written in NSIS 2, designed for automating system provisioning, tool deployment, and building reproducible development environments. For preparing Windows see [Windows Provisioning Toolkit](https://github.com/konskarz/wpt).
+wTools is an INI-driven Windows application manager, written in NSIS 2, designed for automating system provisioning, tool deployment, and building reproducible development environments. For preparing Windows see [Windows Provisioning Toolkit](https://github.com/konskarz/wpt).
 
 ## Getting Started
 
 - Download wTools from the [releases page](https://github.com/konskarz/wtools/releases).
-- Run any executable. On first launch, it automatically generates an INI file in the same folder. Each INI contains inline documentation describing all properties and options.
+- Run any executable. On first launch, it automatically generates an INI file in the same folder. Each INI contains inline documentation describing all properties and options: [sai.ini](resources/sai.ini), [pai.ini](resources/pai.ini), [pal.ini](resources/pal.ini).
 - Edit the INI to configure applications to install or launch, define download URLs or offline sources, adjust paths, environment variables, and runtime behavior.
 - Use anywhere. Each tool is fully self-contained – just the executable and its INI.
 
@@ -166,7 +166,7 @@ graph LR
 - Local Sync coordinates local directories and Cloud Storage.
 - Editor accesses Projects and the wTools folder for editing and running applications.
 
-> For guidance on data management in line with wTools, see the [Personal Computing Method](pcm.md).
+> For a conceptual overview of how wTools fits into a reproducible computing workflow, see the [Personal Computing Method](pcm.md).
 
 ## Advantages
 
